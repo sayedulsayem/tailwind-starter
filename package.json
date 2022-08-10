@@ -1,0 +1,48 @@
+{
+  "name": "tailwind-starter",
+  "version": "1.0.0",
+  "author": "sayedulsayem",
+  "description": "tailwind starter boilerplate",
+  "license": "ISC",
+  "main": "index.html",
+  "scripts": {
+    "dev": "gulp",
+    "build": "NODE_ENV=production gulp css",
+    "build-images": "gulp images"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sayedulsayem/tailwind-starter.git"
+  },
+  "keywords": [
+    "tailwind",
+    "postcss",
+    "gulp",
+    "boilerplate",
+    "starter"
+  ],
+  "bugs": {
+    "url": "https://github.com/sayedulsayem/tailwind-starter/issues"
+  },
+  "homepage": "https://github.com/sayedulsayem/tailwind-starter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "autoprefixer": "^10.4.8",
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-csscomb": "^3.1.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-plumber-notifier": "0.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.49.9",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.1",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}
